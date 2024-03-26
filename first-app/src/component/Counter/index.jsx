@@ -1,4 +1,6 @@
 import {useState, useEffect, useRef} from 'react';
+import propTypes from "prop-types";
+
 const Counter = ({step = 1, cyclique = false, binary = false}) => {
 
     const MAX = 20
@@ -48,5 +50,12 @@ const Counter = ({step = 1, cyclique = false, binary = false}) => {
         </div>
     );
 };
+
+Counter.propTypes = {
+    step: propTypes.number,
+    cyclique: propTypes.bool,
+    binary: propTypes.bool
+}
+
 
 export default Counter;

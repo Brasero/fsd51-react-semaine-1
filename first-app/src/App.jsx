@@ -1,6 +1,4 @@
 import './App.css';
-import ClassComponent from './component/ClassComponent';
-import FuncComponent from './component/FuncComponent';
 import Counter from "./component/Counter"
 
 function App() {
