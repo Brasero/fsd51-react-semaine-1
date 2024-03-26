@@ -26,6 +26,7 @@ const Counter = () => {
     return (
         <div>
             {
+                //L'opérateur && permet de définir une ternaire avec uniquement un if
                 disabled && <span style={{color: "red"}}>Impossible de décrementé</span>
             }
             <button disabled={disabled} onClick={handleMinus}>-1</button>
