@@ -1,37 +1,50 @@
-import {useState, useEffect} from 'react';
-const Counter = () => {
+import {useState, useEffect, useRef} from 'react';
+const Counter = ({step = 1, cyclique = false, binary = false}) => {
 
+    const MAX = 20
     const [counter, setCounter] = useState(0)
-    const [disabled, setDisabled] = useState(true)
+    const timeoutId = useRef(null)
+    const [disabled, setDisabled] = useState(false)
+    const [cycle, setCycle] = useState(0);
 
-
-    const handlePlus = () => {
-        setCounter(counter + 1)
+    const start = () => {
+        const id = setInterval(() => {
+            setCounter((prevState) => prevState + step)
+        }, 100)
+        timeoutId.current = id
+        setDisabled(true)
     }
 
-    const handleMinus = () => {
-        setCounter(counter - 1)
+    const stop = () => {
+        if(timeoutId.current !== null) {
+            clearInterval(timeoutId.current)
+            setDisabled(false)
+        }
     }
 
     useEffect(() => {
-        if(counter <= 0) {
-            setDisabled(true)
-            return
+        if (counter >= MAX) {
+            clearInterval(timeoutId.current)
+            setCounter(0)
+            if(cyclique) {
+                setCycle(cycle + 1)
+                start()
+            } else {
+                setDisabled(false)
+            }
         }
-        setDisabled(false)
-    }, [counter]);
+    }, [counter])
 
 
 
     return (
         <div>
             {
-                //L'opérateur && permet de définir une ternaire avec uniquement un if
-                disabled && <span style={{color: "red"}}>Impossible de décrementé</span>
+                cyclique && <span>Cycle : {cycle}</span>
             }
-            <button disabled={disabled} onClick={handleMinus}>-1</button>
-            <div>{counter}</div>
-            <button onClick={handlePlus}>+1</button>
+            <div>{binary ? counter.toString(2) : counter}</div>
+            <button disabled={disabled} onClick={start}>Start</button>
+            <button disabled={!disabled} onClick={stop}>Stop</button>
         </div>
     );
 };
