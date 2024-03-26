@@ -1,0 +1,9 @@
+.red {
+    width: 40px;
+    height: 40px;
+    background: red;
+
+    &__test:first-of-type {
+        font-size: 4rem;
+    }
+}

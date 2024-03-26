@@ -1,5 +1,6 @@
 import './App.css';
 import Students from "./component/Students/index.jsx";
+import Revision from "./component/Revision/index.jsx";
 //import Counter from "./component/Counter"
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
           {/*<Counter step={2} />*/}
           {/*<Counter step={3} cyclique={true} />*/}
           {/*<Counter binary={true} cyclique={true} />*/}
-          <Students />
+          {/*<Students />*/}
+          <Revision />
       </>
   )
 }
