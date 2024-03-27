@@ -6,10 +6,17 @@ function App() {
 
     const [state, dispatch] = useShopReducer()
 
+    const handleReverse = () => {
+        dispatch({
+            type: 'reverse_items'
+        })
+    }
+
   return (
     <>
       <AddItem value={state.value} dispatch={dispatch} />
-      <ItemList list={state.list} />
+        <button onClick={handleReverse}>Inverser la liste</button>
+      <ItemList list={state.list} dispatch={dispatch} />
     </>
   )
 }

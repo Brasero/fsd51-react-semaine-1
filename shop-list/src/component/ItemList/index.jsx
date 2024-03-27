@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-function ItemList({list}) {
+import Item from "../Item/index.jsx";
+function ItemList({list, dispatch}) {
 
     return (
         <>
@@ -7,7 +8,7 @@ function ItemList({list}) {
             <ul>
                 {
                     list.map((item, index) => {
-                        return <li key={index}>{item}</li>
+                        return <Item item={item} key={index} dispatch={dispatch} />
                     })
                 }
             </ul>
@@ -16,7 +17,8 @@ function ItemList({list}) {
 }
 
 ItemList.propTypes = {
-    list: PropTypes.arrayOf(PropTypes.string)
+    list: PropTypes.arrayOf(PropTypes.string),
+    dispatch: PropTypes.func
 }
 
 export default ItemList

@@ -1,5 +1,5 @@
 import {useReducer} from "react";
-
+let id = 1
 
 const initialState = {
     value: "",
@@ -18,7 +18,22 @@ const shopReducer = (state, action) => {
             return {
                 ...state,
                 value: '',
-                list: state.list.concat([state.value.trim()]) // == [...state.list, state.value]
+                list: state.list.concat([{
+                    id: id++,
+                    text: state.value.trim()
+                }]) // == [...state.list, state.value]
+            }
+
+        case 'delete_item':
+            return {
+                ...state,
+                list: state.list.filter((item) => item.id !== action.payload)
+            }
+
+        case 'reverse_items':
+            return {
+                ...state,
+                list: [...state.list].reverse()
             }
 
 
