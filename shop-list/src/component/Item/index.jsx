@@ -1,7 +1,10 @@
 import PropTypes from "prop-types";
 import './item.css';
+import {useShopContext} from "../../context/shopContext.jsx";
 
-function Item({item, dispatch}) {
+function Item({item}) {
+
+    const [_,dispatch] = useShopContext()
 
     const handleDelete = () => {
         dispatch({
@@ -32,8 +35,7 @@ Item.propTypes = {
         id: PropTypes.number,
         text: PropTypes.string,
         done: PropTypes.bool
-    }),
-    dispatch: PropTypes.func
+    })
 }
 
 

@@ -1,9 +1,11 @@
-import PropTypes from "prop-types";
 import {useState} from "react";
 import Error from "../Error/index.jsx";
-function AddItem({value, dispatch}) {
+import {useShopContext} from "../../context/shopContext.jsx";
+function AddItem() {
 
     const [error, setError] = useState('')
+
+    const [{value}, dispatch] = useShopContext()
 
     const handleChange = (e) => {
         const {value: targetValue} = e.target
@@ -37,9 +39,5 @@ function AddItem({value, dispatch}) {
     )
 }
 
-AddItem.propTypes = {
-    value: PropTypes.string,
-    dispatch: PropTypes.func
-}
 
 export default AddItem

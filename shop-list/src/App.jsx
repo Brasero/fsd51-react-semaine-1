@@ -4,7 +4,6 @@ import ItemList from "./component/ItemList/index.jsx";
 import useShopReducer from "./reducer/useShopReducer.jsx";
 function App() {
 
-    const [state, dispatch] = useShopReducer()
 
     const handleReverse = () => {
         dispatch({
@@ -14,9 +13,9 @@ function App() {
 
   return (
     <>
-      <AddItem value={state.value} dispatch={dispatch} />
+      <AddItem />
         <button onClick={handleReverse}>Inverser la liste</button>
-      <ItemList list={state.list} dispatch={dispatch} />
+      <ItemList />
     </>
   )
 }
