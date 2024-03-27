@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import './item.css';
 
 function Item({item, dispatch}) {
 
@@ -9,10 +10,17 @@ function Item({item, dispatch}) {
         })
     }
 
+    const handleToggle = () => {
+        dispatch({
+            type: "toggle_item",
+            payload: item.id
+        })
+    }
+
 
     return (
-        <li>
-            <input type={"checkbox"} checked={true}/>
+        <li className={`item ${item.done && "checked"}`}>
+            <input type={"checkbox"} onClick={handleToggle} checked={item.done} />
             {item.text}
             <button onClick={handleDelete}>X</button>
         </li>
@@ -22,7 +30,8 @@ function Item({item, dispatch}) {
 Item.propTypes = {
     item: PropTypes.shape({
         id: PropTypes.number,
-        text: PropTypes.string
+        text: PropTypes.string,
+        done: PropTypes.bool
     }),
     dispatch: PropTypes.func
 }

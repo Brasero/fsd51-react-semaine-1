@@ -20,7 +20,8 @@ const shopReducer = (state, action) => {
                 value: '',
                 list: state.list.concat([{
                     id: id++,
-                    text: state.value.trim()
+                    text: state.value.trim(),
+                    done: false
                 }]) // == [...state.list, state.value]
             }
 
@@ -34,6 +35,14 @@ const shopReducer = (state, action) => {
             return {
                 ...state,
                 list: [...state.list].reverse()
+            }
+
+        case "toggle_item":
+            return {
+                ...state,
+                list: state.list.map((item) => {
+                    return item.id === action.payload ? {...item, done: !item.done} : item
+                })
             }
 
 

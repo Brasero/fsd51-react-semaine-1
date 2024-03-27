@@ -17,7 +17,11 @@ function ItemList({list, dispatch}) {
 }
 
 ItemList.propTypes = {
-    list: PropTypes.arrayOf(PropTypes.string),
+    list: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.number,
+        text: PropTypes.string,
+        done: PropTypes.bool
+    })),
     dispatch: PropTypes.func
 }
 
