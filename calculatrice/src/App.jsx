@@ -1,13 +1,13 @@
 import './App.css'
 import Input from "./component/Input/index.jsx";
-import useCalcReducer from "./reducer/calcReducer.jsx";
 import Buttons from "./component/Buttons/index.jsx";
 import Display from "./component/Display/index.jsx";
 import {useEffect, useState} from "react";
+import {useCalcContext} from "./context/calcContext.jsx";
 
 function App() {
 
-    const [state, dispatch] = useCalcReducer()
+    const [state] = useCalcContext()
     const [message, setMessage] = useState('')
     useEffect(() => {
         if(state.count >= 11) {
@@ -20,9 +20,9 @@ function App() {
             {
                 message !== '' && <span>{message}</span>
             }
-            <Display state={state} />
-            <Input state={state} dispatch={dispatch}/>
-            <Buttons state={state} dispatch={dispatch} />
+            <Display />
+            <Input/>
+            <Buttons/>
         </>
     )
 }

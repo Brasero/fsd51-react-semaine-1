@@ -1,5 +1,7 @@
-import PropTypes from "prop-types";
-function Display({state}) {
+import {useCalcContext} from "../../context/calcContext.jsx";
+function Display() {
+
+    const [state] = useCalcContext()
 
     return (
         <div>
@@ -8,8 +10,6 @@ function Display({state}) {
     )
 }
 
-Display.propTypes = {
-    state: PropTypes.object
-}
+
 
 export default Display

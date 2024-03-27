@@ -1,6 +1,8 @@
-import PropTypes from "prop-types";
+import {useCalcContext} from "../../context/calcContext.jsx";
 
-function Buttons({dispatch, state}) {
+function Buttons() {
+
+    const [state, dispatch] = useCalcContext()
 
     const {n1, n2} = state
 
@@ -29,11 +31,6 @@ function Buttons({dispatch, state}) {
             <button onClick={() => dispatch({type: 'reset'})}>reset</button>
         </>
     )
-}
-
-Buttons.propTypes = {
-    dispatch: PropTypes.func,
-    state: PropTypes.object
 }
 
 export default Buttons

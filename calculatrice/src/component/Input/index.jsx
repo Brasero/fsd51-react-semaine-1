@@ -1,5 +1,7 @@
-import PropTypes from "prop-types";
-function Input({state, dispatch}) {
+import {useCalcContext} from "../../context/calcContext.jsx";
+function Input() {
+
+    const [state, dispatch] = useCalcContext()
 
     const {n1, n2} = state;
 
@@ -25,11 +27,6 @@ function Input({state, dispatch}) {
             <label>N2 <input value={n2} onChange={handleChange} name={'n2'} /></label>
         </div>
     )
-}
-
-Input.propTypes = {
-    state: PropTypes.object,
-    dispatch: PropTypes.func
 }
 
 export default Input
