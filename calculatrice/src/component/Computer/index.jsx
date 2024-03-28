@@ -1,9 +1,13 @@
 import './computer.css';
+import {useCalcContext} from "../../context/calcContext.jsx";
 const Computer = () => {
+
+    const [state] = useCalcContext()
+
     return (
         <div className={'computer__wrapper'}>
             <span className="computer__value">
-                0
+                {state.current}
             </span>
         </div>
     );
