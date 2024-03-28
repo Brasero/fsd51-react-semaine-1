@@ -1,0 +1,15 @@
+.taskForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.taskForm input, .taskForm textarea, .taskForm select {
+    width: 100%;
+}
+
+.taskForm select {
+    text-align: center;
+}

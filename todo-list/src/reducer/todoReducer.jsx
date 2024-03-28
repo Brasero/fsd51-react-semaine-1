@@ -2,7 +2,9 @@ import {useReducer} from "react";
 
 const initialState = {
     categories: [],
-    tasks: []
+    tasks: [],
+    //la propriété filter gardera en mémoire la categorie sélectionnée pour le filtre
+    filter: ''
 }
 
 const todoReducer = (state, action) => {
@@ -49,6 +51,20 @@ const todoReducer = (state, action) => {
             return {
                 ...state,
                 tasks: state.tasks.filter((task) => task.id !== action.payload)
+            }
+
+        case 'set_filter':
+            return {
+                ...state,
+                filter: action.payload
+            }
+
+        case "delete__categorie":
+            //En supprimant une catégorie on supprime également toutes les taches qui lui sont liées
+            return {
+                ...state,
+                tasks: state.tasks.filter(task => task.categorie != action.payload),
+                categories: state.categories.filter(cat => cat.id !== action.payload)
             }
 
         default:

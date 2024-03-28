@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {useTodoContext} from "../../context/todoContext.jsx";
+import "./taskForm.css";
 
 const TaskForm = () => {
 
@@ -45,7 +46,7 @@ const TaskForm = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className={'taskForm'}>
             <h3>Ajouter une tâche</h3>
             {
                 message !== '' && <span style={{color: 'red'}}>{message}</span>

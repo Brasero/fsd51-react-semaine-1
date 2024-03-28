@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import {useTodoContext} from "../../context/todoContext.jsx";
+import './taskItem.scss';
 
 const TaskItem = ({task}) => {
 
@@ -21,17 +22,16 @@ const TaskItem = ({task}) => {
     }
 
     return (
-        <div style={{
-            display: 'flex',
-            gap: '5px'
-        }}>
-            <span>{task.titre}</span>
-            <span>{cat.label}</span>
+        <div className={"task"}>
+            <div>
+                <input type={"checkbox"} className={"task__checkbox"} onChange={handleToggle} checked={task.done}/>
+                <span className={`task__title ${task.done && 'done'}`}>{task.titre}</span>
+            </div>
             {
-                task.description !== '' && <span>{task.description}</span>
+                task.description !== '' && <span className={'task__description'}>{task.description}</span>
             }
-            <input type={"checkbox"} onChange={handleToggle} checked={task.done} />
-            <button onClick={handleDelete}>X</button>
+            <span className={"task__label"}>{cat.label}</span>
+            <button onClick={handleDelete} className={"task__deleteButton"}>X</button>
         </div>
     );
 };

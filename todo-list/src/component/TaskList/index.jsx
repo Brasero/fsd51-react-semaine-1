@@ -3,15 +3,25 @@ import TaskItem from "../TaskItem/index.jsx";
 
 const TaskList = () => {
 
-    const {state: {tasks}} = useTodoContext()
+    //On récupére le filtre
+    const {state: {tasks, filter}} = useTodoContext()
+    //On créer une nouvelle constante qui contiendra soit toutes les taches,
+    //Soit uniquement les taches qui correspondent au filtre s'il y en a un
+    const taskToShow = filter === "" ? tasks : tasks.filter((task) => task.categorie === filter)
 
     return (
         <div>
             <h3>Liste des tâches</h3>
-            <div>
+            <div style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                flexDirection: "column",
+                gap: '5px'
+            }}>
                 {
-                    tasks.length > 0 ?
-                        tasks.map(task => {
+                    taskToShow.length > 0 ?
+                        taskToShow.map(task => {
                             return <TaskItem key={task.id} task={task} />
                         })
                         :
