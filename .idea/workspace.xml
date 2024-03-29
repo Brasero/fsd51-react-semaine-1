@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c40b7d29-7a65-41ec-bdd9-cc70ffb7f60d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/01_J1_Presentation/Examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/01_J1_Presentation/chap1_presentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/02_J1_JSX/Exercices/01_Exercice_number_power.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/02_J1_JSX/chap2_jsx.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/03_J1_props/Exercices/01_index_students_avg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/03_J1_props/Exercices/02_index_messages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/03_J1_props/Exercices/03_index_fruits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/03_J1_props/Exercices/04_Index_horloge_clock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/03_J1_props/chap3_props.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/03_J1_props/images/props.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/04_J1_state/Examples/01_state.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/04_J1_state/Exercices/01_Clock_settimout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/04_J1_state/Exercices/02_Clock_settimout_hook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/04_J1_state/Exercices/03_counter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/04_J1_state/chap4_state.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/05_J1_gestion_event/Exercices/counter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/05_J1_gestion_event/Exercices/counter_increment_decrement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/05_J1_gestion_event/chap5_gestion_event.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/Challenge/01_challenge.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/Challenge/02_challenge.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/Challenge/Correction/correction_challenge_setInterval.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/Challenge/Correction/correction_challenge_settimeout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/Challenge/images/button_counter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/Challenge/images/liste_ordonnee_pas_pas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Introduction/Challenge/images/liste_ordonnees.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Rappels_JS/01_Example_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Rappels_JS/02_porte_variables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Rappels_JS/03_assignation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Rappels_JS/04_constantes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Rappels_JS/05_evaluation_passive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Rappels_JS/06_reduce_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J1_Rappels_JS/07_return_count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Challenge/03_sujet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Challenge/04_sujet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Challenge/Correction/Calculator_simple/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Examples/04_index_useReducer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Examples/index_useEffect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Examples/index_useEffect_nettoyage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Exercices/01_Exercice_nettoyage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/Exercices/03_index_calculator_useReducer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/chap1_hook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/Ex5_damier_colors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/Ex6_lis_hash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/Ex6_list_hash_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/calculatrice_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/calculatrice_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/calculatrice_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/counter_useEffect01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/counter_useEffect02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/data_flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/ex3_counter_buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/lifecycle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/posts_shuffle_contexte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/posts_shuffle_contexte_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/reducer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/J2_3_4_Hooks/images/search_users.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/05_sujet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Provider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/Container.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/Content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/FormGroup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/GlobalStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/Input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/Li.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/Styles/Select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/components/Message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/components/StyleRender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/reducers/characters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Challenge/Correction/num-characters-correction/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/PostProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/Posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context-api/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Exercices_prof/context_api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/Objectif_J5/objectif_j5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_Context_API/chap1_presentation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/app-pair/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/Jinfini_challenge_algo/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/TP/01_sujet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/TP/02_sujet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMAINE_01_SUPPORT/TP/images/decimal_binary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/Buttons/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/CalcButton/calcButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/CalcButton/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/Computer/computer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/Computer/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/NumberButton/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/component/NumberButton/numberButton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/context/calcContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/reducer/calcReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/src/utils/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatrice/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/enoncé.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/ClassComponent/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/Counter/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/FuncComponent/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/Input/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/Revision/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/Revision/revision.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/Student/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/component/Students/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/reducer/useExempleReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/src/utils/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-app/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prensentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/component/AddItem/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/component/Error/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/component/Item/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/component/Item/item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/component/ItemList/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/context/shopContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/src/reducer/useShopReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-list/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/CategorieFilter/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/CategorieForm/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/CategorieItem/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/CategorieList/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/TaskForm/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/TaskForm/taskForm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/TaskItem/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/TaskItem/taskItem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/component/TaskList/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/context/todoContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/src/reducer/todoReducer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php7.4.33\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2eAhUSjkYigOLMsuZMiudgV8vbr" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "evaluation",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Bureau/NodeProject/3WA/fsd51",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Bureau\NodeProject\3WA\fsd51" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c40b7d29-7a65-41ec-bdd9-cc70ffb7f60d" name="Changes" comment="" />
+      <created>1691402150558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691402150558</updated>
+      <workItem from="1711353309457" duration="23387000" />
+      <workItem from="1711441774800" duration="2325000" />
+      <workItem from="1711528928347" duration="4839000" />
+      <workItem from="1711544989713" duration="5098000" />
+      <workItem from="1711614334210" duration="3294000" />
+      <workItem from="1711701721701" duration="440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
